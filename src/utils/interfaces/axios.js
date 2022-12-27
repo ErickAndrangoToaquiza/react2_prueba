@@ -15,7 +15,7 @@ function Axios(){
 
     useEffect (()=>{
         axios
-        .get ("https://iyelrnlkoq7ra5mnxg5cobbkta0uubul.lambda-url.us-east-1.on.aws/?author_id=1"+valueInitial.author_id)
+        .get ("https://iyelrnlkoq7ra5mnxg5cobbkta0uubul.lambda-url.us-east-1.on.aws/?author_id=1011"+valueInitial.author_id)
         .then((response)=>{
             console.log(response.data);
             setGifList(response.data);
