@@ -1,0 +1,10 @@
+.tasks-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &_title{
+        text-align: center;
+    }
+   
+
+}

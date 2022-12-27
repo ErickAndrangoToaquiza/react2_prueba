@@ -1,0 +1,23 @@
+.to-do{
+    background-color: azure;
+    padding: 30px;
+    width: 600px;
+    text-align: center;
+    
+    &__title{
+        text-align: center;
+        margin: 0%;
+        margin-bottom: 10px;
+        font-size: 30px;
+        color:lightslategray;
+
+    }
+
+    &__header{
+        display:flex;
+        gap: 20px;
+        margin-bottom: 30px;
+
+    }
+
+}

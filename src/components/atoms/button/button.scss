@@ -1,0 +1,18 @@
+.button {
+    border: none;
+    background-color:cadetblue;
+    cursor: pointer;
+    border-radius: 7px;
+
+    &--small{
+        padding: 10px;
+    }
+    &--large{
+        padding: 30px;
+    }
+    
+    &__label {
+        color: whitesmoke;
+       
+    }
+}
